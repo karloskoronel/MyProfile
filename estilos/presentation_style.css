@@ -6,14 +6,12 @@
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    
 }
 
 .opacity_blue {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    z-index: 2;
 }
 
 .background div{
@@ -49,12 +47,21 @@
 
 @media screen and (max-width: 620px){
 
-    .header {
+    .perfil_image {
+        width: 100px;
         height: 100px;
     }
 
-    .nav_menu ul li {
-        display: block;
+    .greetings h1 {
+        font-size: 1.5rem;
+    }
+    
+    .greetings h3 {
+        font-size: 1rem;
+    }
+
+    .opacity_blue {
+        justify-content: center;
     }
 
 }
