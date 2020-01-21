@@ -1,8 +1,7 @@
 .header {
-    background-color: rgba(49,80,114,.9);
     width: 100%;
     height: 60px;
-    color: rgb(250, 213, 82);
+    position: fixed;
 }
 
 .nav_bar {
@@ -11,18 +10,21 @@
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
+    vertical-align: center;
+}
+
+.nav_bar div {
+    margin: auto 0px;
 }
 
 .logo_home {
     background-image: url('../resources/images/header/logocjcb_white.png');
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
+    /* border: 1px solid yellow; */
     width: 20%;
-    height: 90%;
-}
-
-.nav_menu {
-    margin: auto 0px;
+    height: 80%;
 }
 
 .nav_menu ul {
@@ -35,5 +37,13 @@
 }
 
 @media screen and (max-width: 620px){
+
+    .header {
+        height: 100px;
+    }
+
+    .nav_menu ul li {
+        display: block;
+    }
 
 }
