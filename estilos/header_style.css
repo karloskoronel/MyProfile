@@ -40,6 +40,8 @@
 
     .header {
         height: 100px;
+        position: relative;
+        background-color: #033268;
     }
 
     .nav_menu ul li {

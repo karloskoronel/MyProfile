@@ -2,6 +2,7 @@
     --color-text-blue: rgb(49, 80, 114);
     --color-text-blue-traslucient: rgb(49, 80, 114, .5);
     --color-text-orange: rgb(250, 213, 82);
+    --color-background-header: #033268;
 }
 
 * {
@@ -16,17 +17,20 @@
     color: var(--color-text-orange);
 }
 
-.presentation {
+section {
     width: 100%;
     height: 100vh;
-    color: var(--color-text-orange);
 }
 
 .opacity_blue {
     width: 100%;
     height: 100%;
-    /* background-color: var(--color-text-blue); */
-    /* background-color: transparent; */
-    background-color: var(--color-text-blue-traslucient);
-    /* opacity: 0.5; */
+    /* background-color: var(--color-text-blue-traslucient); */
+    background-color: transparent;
+}
+
+/* --------- color de las secciones --------------------- */
+
+section.presentation {
+    color: var(--color-text-orange);
 }
