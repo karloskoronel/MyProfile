@@ -26,6 +26,10 @@
     /* border: 1px solid green; */
 }
 
+.interests_description h1 {
+    text-align: center;
+}
+
 .interests_description .content {
     /* background-color: chartreuse; */
     margin: auto 2px;
