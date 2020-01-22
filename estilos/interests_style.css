@@ -1,18 +1,18 @@
+/* interest tambien es un section */
+
 .interests {
     background-image: url('../resources/images/sections/banner_orange.png');
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-color: green; */
-    position: absolute;
-    /* padding: auto auto; */
 }
 
-.marco {
+.interests .marco {
     width: 80%;
     height: 80vh;
-    margin: 10vh auto;
+    margin: 10vh 10%;
     display: flex;
     justify-content: center;
+    position: absolute;
     /* flex-flow: row wrap; */
     /* border: 1px solid red; */
 }
@@ -41,14 +41,17 @@ p {
 /* ----------- layout de imagenes ----------- */
 .interests_images {
     width: 60%;
-    /* min-width: 400px; */
-}
-
-.container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    /* min-width: 400px; */
 }
+
+/* .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+} */
 
 .interest_item {
     padding: 4px auto;

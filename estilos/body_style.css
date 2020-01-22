@@ -12,15 +12,22 @@
     font-size: 16px;
 }
 
+/* color de fondo y color de texto para el header */
+
 .header {
     background-color: var(--color-text-blue-traslucient);
     color: var(--color-text-orange);
 }
 
+/* propiedades generales de section */
+
 section {
     width: 100%;
     height: 100vh;
+    position: relative;
 }
+
+/* div encima de fondo para cargarle algo mas de color */
 
 .opacity_blue {
     width: 100%;
@@ -37,4 +44,8 @@ section.presentation {
 
 section.interests {
     color: var(--color-text-blue);
+}
+
+section.jobs {
+    color: var(--color-text-orange);
 }
