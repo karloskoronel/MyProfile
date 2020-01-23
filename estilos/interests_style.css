@@ -1,13 +1,11 @@
 /* interest tambien es un section */
+
 .interests {
     background-image: url('../resources/images/sections/banner_orange.png');
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0px 2px 2px 2px #282828, 0px -2px 2px 2px #282828;
-    /* display: inline-block;
-    left: 0px; */
     width: 100vw;
-    /* min-height: 20vh;  */
     height: auto;
     position: relative;
     overflow: auto;
@@ -19,7 +17,7 @@
     margin: 10vh 10vw;
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid red; */
+    /* border: 1px solid black; */
 }
 
 /* --------- layout de texto ---------------- */
@@ -48,47 +46,81 @@ p {
 
 
 /* ----------- layout de imagenes ----------- */
+.interest_item {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
 .interests_images {
     width: 57%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    /* border: 1px solid red; */
 }
 
-.interest_item {
-    padding: 4px auto;
+.interests_images .row {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    height: 50%;
+    /* border: 1px solid green; */
 }
 
-.interests_images img{
-    width: 100%;
-    box-shadow: -4px 4px 10px black;
+.interests_images .col {
+    margin: 2px;
+    padding: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
+.interests_images .row_1 .col:nth-child(1) {
+    border-radius: 20px 0px 0px 0px;
+    background-image: url('../resources/images/temas/redes_de_datos.jpg');
+}
+
+.interests_images .row_1 .col:nth-child(2) {
+    border-radius: 0px 20px 0px 0px;
+    background-image: url('../resources/images/temas/smartphone.jfif');
+}
+
+.interests_images .row_2 .col:nth-child(1) {
+    border-radius: 0px 0px 0px 20px;
+    background-image: url('../resources/images/temas/inteligencia_artificial.jpg');
+}
+
+.interests_images .row_2 .col:nth-child(2) {
+    border-radius: 0px 0px 20px 0px;
+    background-image: url('../resources/images/temas/data_security.jpg');
+}
 
 
 
 @media screen and (max-width: 720px){
 
-    .marco {
-        width: 90%;
+    .interests .marco {
+        /* width: 90%; */
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        height: auto;
+        overflow: scroll;
     }
 
     .interests_description {
         width: 90%;
         height: initial;
-        display: initial;
+        display: block;
     }
 
     .interests_images {
         width: 90%;
     }
 
-    .interests_images .row:nth-child(1) {
-        display: none;
+    .interests_images .row .col {
+        height: 100px;
     }
+
+    /* .interests_images .row:nth-child(1) {
+        display: none;
+    } */
 
 } 
 

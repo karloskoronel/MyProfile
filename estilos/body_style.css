@@ -42,12 +42,12 @@ section h1 {
 
 /* ------------- z index --------------- */
 
-section:nth-child(2n) {
+section:nth-child(4n) {
     color: var(--color-text-blue);
     z-index: 3;
 }
 
-section:nth-child(2n+1) .background {
+section:nth-child(4n+2) .background {
     color: var(--color-text-orange);
     z-index: 1;
 }
