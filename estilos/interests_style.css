@@ -6,6 +6,11 @@
     background-repeat: no-repeat;
     /* box-shadow: 0px 1px 4px 2px black, 0px -1px 4px 2px black; */
     box-shadow: 0px 2px 2px 2px #282828, 0px -2px 2px 2px #282828;
+    /* display: inline-block;
+    left: 0px;
+    width: 100%;
+    height: auto; */
+    
 }
 
 .interests .marco {
@@ -14,6 +19,7 @@
     margin: 10vh 10%;
     display: flex;
     justify-content: space-between;
+    /* border: 1px solid red; */
     position: absolute;
     /* flex-flow: row wrap; */
     /* border: 1px solid red; */
