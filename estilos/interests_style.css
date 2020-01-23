@@ -1,27 +1,24 @@
 /* interest tambien es un section */
-
 .interests {
     background-image: url('../resources/images/sections/banner_orange.png');
     background-size: cover;
     background-repeat: no-repeat;
-    /* box-shadow: 0px 1px 4px 2px black, 0px -1px 4px 2px black; */
     box-shadow: 0px 2px 2px 2px #282828, 0px -2px 2px 2px #282828;
     /* display: inline-block;
-    left: 0px;
-    width: 100%;
-    height: auto; */
-    
+    left: 0px; */
+    width: 100vw;
+    /* min-height: 20vh;  */
+    height: auto;
+    position: relative;
+    overflow: auto;
 }
 
 .interests .marco {
-    width: 80%;
+    width: 80vw;
     height: 80vh;
-    margin: 10vh 10%;
+    margin: 10vh 10vw;
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid red; */
-    position: absolute;
-    /* flex-flow: row wrap; */
     /* border: 1px solid red; */
 }
 
@@ -56,14 +53,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    /* min-width: 400px; */
 }
-
-/* .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-} */
 
 .interest_item {
     padding: 4px auto;
@@ -71,20 +61,15 @@ p {
 
 .interests_images img{
     width: 100%;
-    /* overflow: hidden; */
     box-shadow: -4px 4px 10px black;
 }
 
-/* .row {
-    border: 1px solid blue;
-} */
 
 
 
 @media screen and (max-width: 720px){
 
     .marco {
-        /* display: inline-block; */
         width: 90%;
         flex-direction: column;
         justify-content: space-around;
