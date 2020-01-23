@@ -41,16 +41,14 @@ section h1 {
     /* background-color: transparent; */
 }
 
-/* --------- color de las secciones --------------------- */
+/* ------------- z index --------------- */
 
-section.presentation {
-    color: var(--color-text-orange);
-}
-
-section.interests {
+section:nth-child(2n) {
     color: var(--color-text-blue);
+    z-index: 3;
 }
 
-section.jobs {
+section:nth-child(2n+1) .background {
     color: var(--color-text-orange);
+    z-index: 1;
 }

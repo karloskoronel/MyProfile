@@ -1,0 +1,96 @@
+:root {
+    --url-tool-picture-html: url('../resources/images/skills/html.png');
+    --url-tool-picture-css: url('../resources/images/skills/css.png');
+    --url-tool-picture-javascript: url('../resources/images/skills/js_black.png');
+    --url-tool-picture-coreldraw: url('../resources/images/skills/coreldraw.png');
+    --url-tool-picture-photshop: url('../resources/images/skills/photshop.png');
+    --url-tool-picture-java: url('../resources/images/skills/java.png');
+    --url-tool-picture-puntonet: url('../resources/images/skills/visual_studio.png');
+    --url-tool-picture-python: url('../resources/images/skills/python.png');
+    --url-tool-picture-sqlserver: url('../resources/images/skills/sql_server.png');
+    /* --url-tool-picture-html: url('../resources/images/skills/html.png');
+    --url-tool-picture-html: url('../resources/images/skills/html.png');
+    --url-tool-picture-html: url('../resources/images/skills/html.png'); */
+}
+
+:root {
+    --color-text-blue: rgb(49, 80, 114);
+    --color-text-blue-traslucient-2: rgba(49, 80, 114, .2);
+    --color-text-orange: rgb(250, 213, 82);
+    --color-text-orange-traslucient-2: rgba(250, 213, 82, .2);
+    --color-background-header: #033268;
+}
+
+.skills {
+    box-shadow: 0px 2px 2px 2px #282828, 0px -2px 2px 2px #282828;
+}
+
+.skills .background {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    background-image: url('../resources/images/sections/fondo_naranja.jfif');
+    background-position: center;
+    background-size: cover;
+}
+
+.skills .marco {
+    width: 80%;
+    height: auto;
+    margin: 100px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 1px solid blue; */
+}
+
+.skills .marco>div {
+    margin: 10px 0px;
+    /* border: 1px solid red; */
+}
+
+.skills-table .col {
+    margin: 2px 2px;
+    padding: 10px 10px;
+    background-color: var(--color-text-blue-traslucient-2);
+}
+
+/* .skills-frontend .col-2:nth-child(1) {
+    background-image: var(--url-tool-picture-html);
+}
+
+.skills-frontend .col-2:nth-child(2) {
+    background-image: var(--url-tool-picture-css);
+}
+
+.skills-frontend .col-2:nth-child(3) {
+    background-image: var(--url-tool-picture-javascript);
+}
+
+.skills-frontend .col-2:nth-child(4) {
+    background-image: var(--url-tool-picture-coreldraw);
+}
+
+.skills-frontend .col-2:nth-child(5) {
+    background-image: var(--url-tool-picture-photshop);
+} */
+
+.skills-table .col {
+    text-align: center;
+}
+
+.skills-table img {
+    /* width: 100px; */
+    height: 80px;
+}
+
+
+@media screen and (max-width:720px) {
+
+    .skills {
+        position: relative;
+    }
+
+}
