@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --url-tool-picture-html: url('../resources/images/skills/html.png');
     --url-tool-picture-css: url('../resources/images/skills/css.png');
     --url-tool-picture-javascript: url('../resources/images/skills/js_black.png');
@@ -8,10 +8,10 @@
     --url-tool-picture-puntonet: url('../resources/images/skills/visual_studio.png');
     --url-tool-picture-python: url('../resources/images/skills/python.png');
     --url-tool-picture-sqlserver: url('../resources/images/skills/sql_server.png');
-    /* --url-tool-picture-html: url('../resources/images/skills/html.png');
     --url-tool-picture-html: url('../resources/images/skills/html.png');
-    --url-tool-picture-html: url('../resources/images/skills/html.png'); */
-}
+    --url-tool-picture-html: url('../resources/images/skills/html.png');
+    --url-tool-picture-html: url('../resources/images/skills/html.png');
+} */
 
 :root {
     --color-text-blue: rgb(49, 80, 114);
@@ -28,11 +28,12 @@
 .skills .background {
     display: block;
     width: 100%;
-    height: auto;
+    height: 100%;
     overflow: auto;
     background-image: url('../resources/images/sections/fondo_naranja.jfif');
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .skills .marco {
@@ -48,7 +49,6 @@
 
 .skills .marco>div {
     margin: 10px 0px;
-    /* border: 1px solid red; */
 }
 
 .skills-table .col {
@@ -57,32 +57,11 @@
     background-color: var(--color-text-blue-traslucient-2);
 }
 
-/* .skills-frontend .col-2:nth-child(1) {
-    background-image: var(--url-tool-picture-html);
-}
-
-.skills-frontend .col-2:nth-child(2) {
-    background-image: var(--url-tool-picture-css);
-}
-
-.skills-frontend .col-2:nth-child(3) {
-    background-image: var(--url-tool-picture-javascript);
-}
-
-.skills-frontend .col-2:nth-child(4) {
-    background-image: var(--url-tool-picture-coreldraw);
-}
-
-.skills-frontend .col-2:nth-child(5) {
-    background-image: var(--url-tool-picture-photshop);
-} */
-
 .skills-table .col {
     text-align: center;
 }
 
 .skills-table img {
-    /* width: 100px; */
     height: 80px;
 }
 

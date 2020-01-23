@@ -13,7 +13,7 @@
     height: 80vh;
     margin: 10vh 10%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     position: absolute;
     /* flex-flow: row wrap; */
     /* border: 1px solid red; */
@@ -22,7 +22,7 @@
 /* --------- layout de texto ---------------- */
 
 .interests_description {
-    width: 40%;
+    width: 38%;
     display: table;
     height: inherit;
     /* border: 1px solid green; */
@@ -46,7 +46,7 @@ p {
 
 /* ----------- layout de imagenes ----------- */
 .interests_images {
-    width: 60%;
+    width: 57%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
