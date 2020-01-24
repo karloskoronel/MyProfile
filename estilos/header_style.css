@@ -1,10 +1,12 @@
-/* :root {
+:root {
     --color-text-blue: rgb(49, 80, 114);
-    --color-text-blue-traslucient: rgba(49, 80, 114, .5);
+    --color-text-blue-traslucient-5: rgba(49, 80, 114, .5);
+    --color-text-blue-traslucient-8: rgba(49, 80, 114, .8);
     --color-text-orange: rgb(250, 213, 82);
     --color-text-orange-traslucient-5: rgba(250, 213, 82, .5);
+    --color-text-orange-traslucient-2: rgba(250, 213, 82, .2);
     --color-background-header: #033268;
-} */
+}
 
 .header {
     width: 100%;
@@ -60,6 +62,9 @@
 .nav_menu ul li {
     display: inline-flex;
     margin: 4px;
+    padding: 0px 4px;
+    border-radius: 6px;
+    /* border: 1px solid red; */
 }
 
 .nav_menu ul li a:link,
@@ -67,6 +72,12 @@
  {
     text-decoration: none;
     color: var(--color-text-orange);
+}
+
+.nav_menu ul li:hover
+ {
+    /* background-color: var(--color-text-blue-traslucient-8); */
+    background-color: var(--color-text-orange-traslucient-2);
 }
 
 .nav_menu ul li:nth-child(1){
