@@ -1,0 +1,13 @@
+header {
+    animation-name: entrada;
+    animation-duration: 2s;
+}
+
+@keyframes entrada{
+    0% {
+        transform: translate(0px,-60px);
+    }
+    100% {
+        transform: translate(0px,0px);
+    }
+}
