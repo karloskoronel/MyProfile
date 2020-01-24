@@ -17,6 +17,7 @@
     margin: 10vh 10vw;
     display: flex;
     justify-content: space-between;
+    
     /* border: 1px solid black; */
 }
 
@@ -69,6 +70,8 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    transition-property: box-shadow;
+    transition-duration: .2s;
 }
 
 .interests_images .row_1 .col:nth-child(1) {
@@ -91,7 +94,10 @@ p {
     background-image: url('../resources/images/temas/data_security.jpg');
 }
 
-
+.interests_images .col:hover {
+    /* box-shadow: 1px 1px 6px var(--color-text-blue-traslucient-8), -1px -1px 6px var(--color-text-blue-traslucient-8); */
+    box-shadow: 1px 1px 6px black, -1px -1px 6px black;
+}
 
 @media screen and (max-width: 720px){
 
@@ -101,7 +107,7 @@ p {
         justify-content: space-around;
         align-items: center;
         height: auto;
-        overflow: scroll;
+        overflow: auto;
     }
 
     .interests_description {

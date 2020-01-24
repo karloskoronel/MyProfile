@@ -41,6 +41,7 @@ footer .content {
     display: table-cell;
     vertical-align: center;
     font-size: 20px;
+    cursor: pointer;
 }
 
 
@@ -55,8 +56,13 @@ footer .content {
 .social-networks .icon {
     margin: 0px 10px;
     height: 40px;
+    cursor: pointer;
 }
 
+/* 
+.social-networks .icon:hover {
+    cursor: pointer;
+} */
 
 @media screen and (max-width:720px) {
 
