@@ -1,3 +1,12 @@
+:root {
+    --color-text-blue: rgb(49, 80, 114);
+    --color-text-blue-traslucient: rgba(49, 80, 114, .5);
+    --color-text-orange: rgb(250, 213, 82);
+    --color-text-orange-traslucient-5: rgba(250, 213, 82, .5);
+    --color-text-orange-traslucient-2: rgba(250, 213, 82, .2);
+    --color-background-header: #033268;
+}
+
 /* interest tambien es un section */
 
 .interests {
@@ -72,11 +81,13 @@ p {
     background-position: center;
     transition-property: box-shadow;
     transition-duration: .2s;
+    overflow: hidden;
 }
 
 .interests_images .row_1 .col:nth-child(1) {
     border-radius: 20px 0px 0px 0px;
     background-image: url('../resources/images/temas/redes_de_datos.jpg');
+    
 }
 
 .interests_images .row_1 .col:nth-child(2) {
@@ -97,6 +108,16 @@ p {
 .interests_images .col:hover {
     /* box-shadow: 1px 1px 6px var(--color-text-blue-traslucient-8), -1px -1px 6px var(--color-text-blue-traslucient-8); */
     box-shadow: 1px 1px 6px black, -1px -1px 6px black;
+}
+
+.interests_images .pantalla {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-text-orange-traslucient-2);
+}
+
+.interests_images .pantalla:hover {
+    background-color: transparent;
 }
 
 @media screen and (max-width: 720px){
