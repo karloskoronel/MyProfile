@@ -10,7 +10,7 @@
 /* interest tambien es un section */
 
 .interests {
-    background-image: url('../resources/images/sections/banner_orange.png');
+    background-image: url('../../../resources/images/sections/banner_orange.png');
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0px 2px 2px 2px #282828, 0px -2px 2px 2px #282828;
@@ -26,8 +26,6 @@
     margin: 10vh 10vw;
     display: flex;
     justify-content: space-between;
-    
-    /* border: 1px solid black; */
 }
 
 /* --------- layout de texto ---------------- */
@@ -36,7 +34,6 @@
     width: 38%;
     display: table;
     height: inherit;
-    /* border: 1px solid green; */
 }
 
 .interests_description h1 {
@@ -44,7 +41,6 @@
 }
 
 .interests_description .content {
-    /* background-color: chartreuse; */
     margin: auto 2px;
     display: table-cell;
     vertical-align: middle;
@@ -63,14 +59,12 @@ p {
 
 .interests_images {
     width: 57%;
-    /* border: 1px solid red; */
 }
 
 .interests_images .row {
     margin: 0px 0px;
     padding: 0px 0px;
     height: 50%;
-    /* border: 1px solid green; */
 }
 
 .interests_images .col {
@@ -86,27 +80,26 @@ p {
 
 .interests_images .row_1 .col:nth-child(1) {
     border-radius: 20px 0px 0px 0px;
-    background-image: url('../resources/images/temas/redes_de_datos.jpg');
+    background-image: url('../../../resources/images/temas/redes_de_datos.jpg');
     
 }
 
 .interests_images .row_1 .col:nth-child(2) {
     border-radius: 0px 20px 0px 0px;
-    background-image: url('../resources/images/temas/smartphone.jfif');
+    background-image: url('../../../resources/images/temas/smartphone.jfif');
 }
 
 .interests_images .row_2 .col:nth-child(1) {
     border-radius: 0px 0px 0px 20px;
-    background-image: url('../resources/images/temas/inteligencia_artificial.jpg');
+    background-image: url('../../../resources/images/temas/inteligencia_artificial.jpg');
 }
 
 .interests_images .row_2 .col:nth-child(2) {
     border-radius: 0px 0px 20px 0px;
-    background-image: url('../resources/images/temas/data_security.jpg');
+    background-image: url('../../../resources/images/temas/data_security.jpg');
 }
 
 .interests_images .col:hover {
-    /* box-shadow: 1px 1px 6px var(--color-text-blue-traslucient-8), -1px -1px 6px var(--color-text-blue-traslucient-8); */
     box-shadow: 1px 1px 6px black, -1px -1px 6px black;
 }
 
@@ -123,7 +116,6 @@ p {
 @media screen and (max-width: 720px){
 
     .interests .marco {
-        /* width: 90%; */
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
@@ -144,10 +136,6 @@ p {
     .interests_images .row .col {
         height: 100px;
     }
-
-    /* .interests_images .row:nth-child(1) {
-        display: none;
-    } */
 
 } 
 

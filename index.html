@@ -4,31 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="estilos/body_style.css">
-    <link rel="stylesheet" href="estilos/header_style.css">
-    <link rel="stylesheet" href="estilos/presentation_style.css">
+    <link rel="stylesheet" href="estilos/schema/index/body_style.css">
+    <link rel="stylesheet" href="estilos/schema/index/header_style.css">
+    <link rel="stylesheet" href="estilos/schema/index/presentation_style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     
-    <link rel="stylesheet" href="estilos/jobs_style.css">
-    <link rel="stylesheet" href="estilos/interests_style.css">
-    <link rel="stylesheet" href="estilos/skills_style.css">
-    <link rel="stylesheet" href="estilos/footer_style.css">
+    <link rel="stylesheet" href="estilos/schema/index/jobs_style.css">
+    <link rel="stylesheet" href="estilos/schema/index/interests_style.css">
+    <link rel="stylesheet" href="estilos/schema/index/skills_style.css">
+    <link rel="stylesheet" href="estilos/schema/index/footer_style.css">
     <link rel="stylesheet" href="estilos/fonts/brakston-font.css">
 
     <link rel="stylesheet" href="estilos/animations/animations_one.css">
+
+    <link rel="stylesheet" href="estilos/schema/experience/information.css">
 
     <title>CJCB Development</title>
 </head>
 <body>
     <header class="header">
         <div class="nav_bar">
-            
-            <div class="logo_home item_nav">
-                <div class="pantalla">
-                    
+            <a class="pantalla" href="#presentation">
+                <div class="logo_home item_nav">
                 </div>
-            </div>
-        
+            </a> 
             <div class="nav_menu item_nav">
                 <ul>
                     <li>
@@ -110,27 +109,27 @@
                     <div class="projects">
                             <div class="project">
                                 <div class="solapa">
-                                    <a href="#">
+                                    <a id="mdlo" href="#jobs">
                                         Asistente de TI
                                     </a>
                                 </div>
-                                <!-- <img src="./resources/images/cronological/estadisticas.png" alt=""> -->
+                                
                             </div>
                             <div class="project">
                                 <div class="solapa">
-                                    <a href="#">
+                                    <a id="holos" href="#jobs">
                                         Mapeo de Procesos
                                     </a>
                                 </div>
-                                <!-- <img src="./resources/images/cronological/procesos.jfif" alt=""> -->
+                                
                             </div>
                             <div class="project">
                                 <div class="solapa">
-                                    <a href="#">
+                                    <a id="ice" href="#jobs">
                                         Asistente de TI
                                     </a>
                                 </div>
-                                <!-- <img src="./resources/images/cronological/developer.png" alt=""> -->
+                                
                             </div>
                     </div>
                 </div>
@@ -202,14 +201,68 @@
                 </p>
             </div>
             <div class="social-networks">
+                
                 <img src="./resources/images/footer/facebook_64.png" alt="facebook icon" class="icon facebook">
-                <img src="./resources/images/footer/linkedin_64.png" alt="linkedin icon" class="icon linkedin">
+                <a href="https://www.linkedin.com/in/carlos-jesus-coronel-blancas-6574b147/">
+                    <img src="./resources/images/footer/linkedin_64.png" alt="linkedin icon" class="icon linkedin">
+                </a>
+                
                 <img src="./resources/images/footer/instagram_64.png" alt="instagram icon" class="icon instagram">
                 <img src="./resources/images/footer/youtube_64.png" alt="youtube icon" class="icon youtube">
             </div>
         </div>
 
     </footer>
+
+    <section id="info_cv" class="information">
+        <div class="marco_information">
+            
+                <div class="container container_empresa">
+                    <div class="row d-flex justify-content-around align-items-center">
+                        <div class="col-3 text-center">
+                            <img id="l_empre" src="./resources/images/cronological/logo_mdlo.png" alt="" class="logo_empresa" >
+                        </div>
+                        <div class="col-9 ">
+                            <h5 id="d_empre">SUBGERENCIA DE PREVENCION Y PROMOCION DE LA 
+                                SALUD DE LA MUNICIPALIDAD DISTRITAL DE LOS 
+                                OLIVOS</h5>
+                        </div>
+                    </div>
+                </div>
+            
+
+                <div class="container container_empleado">
+                    <div class="row d-flex justify-content-around align-items-center">
+                        <div class="col-lg-3 col-md-12">
+                            <h5>Duración:</h5>
+                        </div>
+                        <div class="col-lg-9 col-md-12">
+                            <p id="d_durac">123</p>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-around align-items-center">
+                        <div class="col-lg-3 col-md-12">
+                            <h5>Cargo:</h5>
+                        </div>
+                        <div class="col-lg-9 col-md-12">
+                            <p id="d_cargo">123</p>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-around align-items-center">
+                        <div class="col-lg-3 col-md-12">
+                            <h5>Descripción:</h5>
+                        </div>
+                        <div class="col-lg-9 col-md-12">
+                            <p id="d_descr">1234</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hecho">
+                    <button id="hecho" type="button" class="btn btn-info">Hecho</button>
+                </div>
+        </div>
+    </section>
+
     <script src="scripts/load_script.js"></script>
 </body>
 </html>

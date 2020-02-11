@@ -18,7 +18,7 @@
  }
 
 .jobs .background {
-    background-image: url('../resources/images/sections/telarania_azul.jpg');
+    background-image: url('../../../resources/images/sections/telarania_azul.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -48,19 +48,28 @@
     align-items: center;
     border-radius: 5px;
     background-color: var(--color-text-orange-traslucient-2);
-    /* background-color: var(--color-text-orange); */
 }
 
 .project:nth-child(1){
-    background-image: url('../resources/images/cronological/estadisticas.png');
+    background-image: url('../../../resources/images/cronological/estadisticas.png');
 }
 
+/* .project:nth-child(1) .solapa .logo {
+    background-image: url('../../../resources/images/cronological/logo_mdlo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50%;
+    height: 50%;
+    z-index: 2;
+} */
+
 .project:nth-child(2){
-    background-image: url('../resources/images/cronological/procesos.jfif');
+    background-image: url('../../../resources/images/cronological/procesos.jfif');
 }
 
 .project:nth-child(3){
-    background-image: url('../resources/images/cronological/developer.png');
+    background-image: url('../../../resources/images/cronological/developer.png');
 }
 
 .project {
@@ -79,7 +88,8 @@
     background-color: transparent;
     color: transparent;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     z-index: 2;
 }
@@ -96,16 +106,10 @@
 
 
 @media screen and (max-width:720px) {
-    
-
-    /* .jobs .marco div h1 {
-        text-align: center;
-    } */
 
     .projects {
         flex-direction: column;
         justify-content: space-around;
-        /* flex-wrap: nowrap; */
         flex-flow: column;
         height: auto;
     }
